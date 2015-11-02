@@ -4,6 +4,8 @@ function setup() {
 
 function draw() {
 	// place your drawing code here
+
+background("#e0ffe2")
 	
 stroke("#baf8ff")
 strokeWeight(10);
@@ -18,9 +20,9 @@ line(width/2,height/2,0,0);
 stroke("green");
 line(300,360,0,0);
 
-rect(200,10,100,100);
+rect(400,10,20,20);
 
-triangle(80,80,120,300,160,140,50,90);
+triangle(20,80,120,300,160,140,50,90);
 
 point(300,300);
 
@@ -32,6 +34,7 @@ stroke(0);
 curve(5, 26, 73, 24, 73, 61, 15, 65);
 stroke(255, 102, 0);
 curve(73, 24, 73, 61, 15, 65, 15, 65);
+
 
 
 

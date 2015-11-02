@@ -6,6 +6,9 @@ function draw() {
 	// place your drawing code here
 
 
+
+
+
 background("#e0ffe2")
 	
 stroke("#baf8ff")
@@ -30,15 +33,15 @@ point(300,300);
 
 
 noFill();
-stroke(255, 102, 0);
-curve(5, 26, 5, 26, 73, 24, 73, 61);
+stroke(255, 500, 0);
+curve(5, 80, 5, 26, 73, 24, 73, 61);
 stroke(0);
 curve(5, 26, 73, 24, 73, 61, 15, 65);
-stroke(255, 102, 0);
-curve(73, 24, 73, 61, 15, 65, 15, 65);
+stroke(500, 102, 300);
+curve(73, 24, 73, 61, 15, 65, 70, 65);
 
 
-
+}
 
 
 

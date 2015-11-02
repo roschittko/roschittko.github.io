@@ -5,15 +5,17 @@ function setup() {
 function draw() {
 	// place your drawing code here
 
+
 background("#e0ffe2")
 	
 stroke("#baf8ff")
 strokeWeight(10);
 fill("#47fff8")
-ellipse(width/2,height/2,150,150);
-ellipse(width/3,height/2,200,150);
+ellipse(width/2,height/2,200,150);
+ellipse(width/1,height/2,200,150);
+ellipse(width/1,height/1,200,150);
 
-quad(15,15,10,200,70,51,90,40);
+quad(20,30,10,200,90,350,90,40);
 
 strokeWeight(7);
 line(width/2,height/2,0,0);
@@ -22,7 +24,7 @@ line(300,360,0,0);
 
 rect(400,10,20,20);
 
-triangle(20,80,120,300,160,140,50,90);
+triangle(70,80,120,300,160,140,50,90);
 
 point(300,300);
 
@@ -34,7 +36,6 @@ stroke(0);
 curve(5, 26, 73, 24, 73, 61, 15, 65);
 stroke(255, 102, 0);
 curve(73, 24, 73, 61, 15, 65, 15, 65);
-
 
 
 

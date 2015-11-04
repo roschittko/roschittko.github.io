@@ -14,6 +14,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 }
 
+var value = 0;
+
 function draw() {
 	// place your drawing code here
 	
@@ -65,27 +67,31 @@ line(370,230,60,60);
 
 
 
-var x = 0;
-    function setup() {
-       createCanvas(100, 100);
-       noLoop();
-     }
-    function draw() {
-       background(204);
-       line(x, 0, x, height);
-     }
-    function mousePressed() {
-       x += 1;
-       redraw();
-     }
 
 
+
+
+
+
+
+
+// Move the mouse across the page
+// to change its value
+
+  fill(value);
+  rect(25, 25, 50, 50);
 
 
 }
 
 
+function mouseMoved() {
+  value = value + 5;
+  if (value > 255) {
+    value = 0;
+  }
+  
 
-
+}
 
 

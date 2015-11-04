@@ -1,44 +1,85 @@
+var img;
+function preload() {
+  img = loadImage("robert_schittko_copyright-10-von-10.jpg");
+  img2 = loadImage("lib/222.jpg");
+
+//bei zweitem Bild 
+//img2 =loadImage
+    
+    
+}
+
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
 	// place your drawing code here
-
-
-
-
-
-background("#e0ffe2")
 	
-stroke("#baf8ff")
+	
+	
+
+background("#ffebb4");
+	
+stroke("#baf8ff");
 strokeWeight(10);
-fill("#47fff8")
-ellipse(width/2,height/2,200,150);
-ellipse(width/1,height/2,200,150);
-ellipse(width/1,height/1,200,150);
+fill("#e0ffe2")
 
-quad(20,30,10,200,90,350,90,40);
+image(img2, 0, 0, 200, 150);
 
-strokeWeight(7);
-line(width/2,height/2,0,0);
-stroke("green");
-line(300,360,0,0);
 
-rect(400,10,20,20);
+image(img2, 0, 70, 200, 150);
 
+
+ellipse(width/1,height/2,700,790);
+
+
+
+
+
+
+
+/* Einen Teil des Codes Deaktivieren
+
+stroke("white")
 triangle(70,80,120,300,160,140,50,90);
 
-point(300,300);
+*/ 
+
+  image(img, width/2,height/2, 150, 200);
+ image(img, 290, 150, 75, 100);
+
+ 
+
+// bei zweitem Bild Image(img2)
 
 
-noFill();
-stroke(255, 500, 0);
-curve(5, 80, 5, 26, 73, 24, 73, 61);
-stroke(0);
-curve(5, 26, 73, 24, 73, 61, 15, 65);
-stroke(500, 102, 300);
-curve(73, 24, 73, 61, 15, 65, 70, 65);
+quad(30,100,10,350,100,350,60,60);
+
+stroke("black");
+line(30,100,300,266);
+
+strokeWeight(10);
+line(370,230,60,60);
+
+
+
+var x = 0;
+    function setup() {
+       createCanvas(100, 100);
+       noLoop();
+     }
+    function draw() {
+       background(204);
+       line(x, 0, x, height);
+     }
+    function mousePressed() {
+       x += 1;
+       redraw();
+     }
+
+
 
 
 }
@@ -47,5 +88,4 @@ curve(73, 24, 73, 61, 15, 65, 70, 65);
 
 
 
-}
 

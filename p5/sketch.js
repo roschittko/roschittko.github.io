@@ -16,15 +16,16 @@ function setup() {
 
 var value = 0;
 
+
+
+
+
 function draw() {
 	// place your drawing code here
-	
-	
-	
 
-background("#ffebb4");
+  background("#ffebb4");
 	
-stroke("#baf8ff");
+  stroke("#baf8ff");
 strokeWeight(10);
 fill("#e0ffe2")
 
@@ -35,7 +36,6 @@ image(img2, 0, 70, 200, 150);
 
 
 ellipse(width/1,height/2,700,790);
-
 
 
 
@@ -57,13 +57,17 @@ triangle(70,80,120,300,160,140,50,90);
 // bei zweitem Bild Image(img2)
 
 
-quad(30,100,10,350,100,350,60,60);
 
+
+/*
 stroke("black");
 line(30,100,300,266);
 
-strokeWeight(10);
 line(370,230,60,60);
+
+*/
+
+strokeWeight(10);
 
 
 
@@ -79,8 +83,7 @@ line(370,230,60,60);
 // to change its value
 
   fill(value);
-  rect(25, 25, 50, 50);
-
+  rect(0, height/2, 1500, 50);
 
 }
 

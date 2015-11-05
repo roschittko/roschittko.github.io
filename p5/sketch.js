@@ -12,6 +12,8 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  
+  
 }
 
 var value = 0;
@@ -23,34 +25,56 @@ var value = 0;
 function draw() {
 	// place your drawing code here
 
-  background("#ffebb4");
+ 
+  
+  /*
+
+  var regularArr = ['#ffebb4', 'white'];
+  print(regularArr);
+  shuffle(regularArr, true); // force modifications to passed array
+  print(regularArr);
+  
+   // By default shuffle() returns a shuffled cloned array:
+  var newArr = shuffle(regularArr);
+  print(regularArr);
+  print(newArr)
+  
+   background(newArr[0]);
+   
+   */
+
+
 	
   stroke("#baf8ff");
-strokeWeight(10);
+strokeWeight(1);
 fill("#e0ffe2")
 
-image(img2, 0, 0, 200, 150);
-
-
-image(img2, 0, 70, 200, 150);
-
-
-ellipse(width/1,height/2,700,790);
 
 
 
 
 
+ellipse(width/1,height/2,500,790);
 
-/* Einen Teil des Codes Deaktivieren
+ellipse(0,height/2,500,790);
+
+
+
+
+
+
+// Einen Teil des Codes Deaktivieren
 
 stroke("white")
-triangle(70,80,120,300,160,140,50,90);
 
-*/ 
 
-  image(img, width/2,height/2, 150, 200);
- image(img, 290, 150, 75, 100);
+/*
+triangle(70,80,windowWidth,300,160,600,50,90);
+*/
+
+
+  image(img, 430, 100, 400, 600);
+
 
  
 
@@ -67,9 +91,7 @@ line(370,230,60,60);
 
 */
 
-strokeWeight(10);
-
-
+strokeWeight(1);
 
 
 
@@ -82,15 +104,49 @@ strokeWeight(10);
 // Move the mouse across the page
 // to change its value
 
+    fill(value);
+  rect(0, 50, 1500, 50);
+  
+  
+     fill(value);
+  rect(0, 200, 1500, 50);
+  
+  
   fill(value);
   rect(0, height/2, 1500, 50);
+  
+  
+   fill(value);
+  rect(0, 470, 1500, 50);
+  
+  
+  fill(value);
+  rect(0, 610, 1500, 50);
+  
+ 
+ 
+ 
+ 
+textSize(30);
+
+  textFont("Helvetica");
+  text ("i never really loved you / it was just how you looked in the light",100 ,89);
+  
+  text ("//////////////////////////////////////////////////////////////////",100 ,233);
+
+  text ("//////////////////////////////////////////////////////////////////",100 ,371);
+  
+  
+
+
+
 
 }
 
 
 function mouseMoved() {
-  value = value + 5;
-  if (value > 255) {
+  value = value + 2;
+  if (value > 500) {
     value = 0;
   }
   

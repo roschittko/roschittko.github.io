@@ -23,6 +23,18 @@ var value = 0;
 
 
 function draw() {
+  
+  
+  background("white");
+  var ellipseWidth = Math.random()
+  
+  var ellipseWidth = Math.random()
+  * 100;
+  
+  var ellipseWith = Math.random()
+    
+  ellipse(100,100,100,100);
+  
 	// place your drawing code here
 
  

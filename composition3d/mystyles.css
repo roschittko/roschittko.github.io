@@ -1,0 +1,21 @@
+body {
+    background-color: Tan;
+    color: white;
+    font-family: Arial, sans-serif, helvetica;
+    padding: 20px;
+    border: 10px dotted white;
+    
+    
+}
+
+
+h1 {color: red;
+font-family: "Times New Roman";
+    
+    
+}
+
+.special {
+    color: green;
+    
+}

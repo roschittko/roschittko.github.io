@@ -3,7 +3,7 @@ function setup() {
 
   createCanvas(windowWidth, windowHeight);
   
-  frameRate(5);
+  frameRate(1);
   
   //Framerate geschwindigkeit beim reload
    
@@ -32,6 +32,7 @@ function draw(){
   
 // Variable einmalig definiert
 
+
   
   fill("#def1ff");
   textSize(50);
@@ -49,7 +50,9 @@ function draw(){
   
   } else {
     background("#deffe0");
-    
+  
+  
+  
   }
  
  
@@ -62,8 +65,10 @@ function draw(){
   var ellipseY = Math.random()*height;
   ellipse (ellipseX,ellipseY,ellipseWidth,ellipseHeight);
  
+ 
+ 
 }
-	
+
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight)

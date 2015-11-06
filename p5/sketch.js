@@ -109,10 +109,6 @@ strokeWeight(1);
 
 
 
-
-
-
-
 // Move the mouse across the page
 // to change its value
 
@@ -142,7 +138,7 @@ strokeWeight(1);
 textSize(30);
 
   textFont("Helvetica");
-  text ("i never really loved you / it was just how you looked in the light",100 ,89);
+  text ("i NEVER really loved you / it was just how you looked in the light",100 ,89);
   
   text ("//////////////////////////////////////////////////////////////////",100 ,233);
 

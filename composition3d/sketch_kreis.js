@@ -3,7 +3,7 @@ function setup() {
 
   createCanvas(windowWidth, windowHeight);
   
-  frameRate(1);
+  frameRate(4);
   
   //Framerate geschwindigkeit beim reload
    

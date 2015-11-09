@@ -5,7 +5,7 @@ var analyzer;
 
 // Erforderliche Lautstärke für das zweite Bild
 // Wert zwischen 0.0 und 1.0
-var scale = 0.1;
+var scale = 0.05;
 
 var maxH = 0;
 

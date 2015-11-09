@@ -14,6 +14,7 @@ var maxH = 0;
 var threshold = 0.15;
 
 var counter = 0;
+var mic;
 
 function setup() {
   img = loadImage("lib/444.jpg");
@@ -32,6 +33,7 @@ function draw() {
   image(img, 0, 0, windowWidth, windowHeight);
 
   var vol = mic.getLevel();
+  console.log(vol);
   var v = map(vol, 0, scale, 255, 0);
   var mask = counter;
 

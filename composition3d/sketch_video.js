@@ -17,7 +17,7 @@ var counter = 0;
 
 function setup() {
   img = loadImage("lib/222.jpg");
-  img2 = loadImage("lib/333.jpg")
+  img2 = loadImage("lib/111.jpg");
   createCanvas(windowWidth, windowHeight);
 
   background(0);

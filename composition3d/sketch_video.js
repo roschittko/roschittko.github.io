@@ -3,15 +3,21 @@ var img2;
 var input;
 var analyzer;
 
+// Erforderliche Lautstärke für das zweite Bild
+// Wert zwischen 0.0 und 1.0
 var scale = 0.1;
+
 var maxH = 0;
 
+// Wert ab dem der counter aufsteigt
+// Wert zwischen 0.0 und 1.0
 var threshold = 0.15;
+
 var counter = 0;
 
 function setup() {
   img = loadImage("lib/222.jpg");
-  img2 = loadImage("lib/111.jpg")
+  img2 = loadImage("lib/333.jpg")
   createCanvas(windowWidth, windowHeight);
 
   background(0);
